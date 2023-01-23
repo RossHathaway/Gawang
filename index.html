@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Googerchuck</title>
+        <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    </head>
+    <body style="background-image: url('./background.webp')">
+        <div class="window" style="margin: 32px; width: 250px">
+            <div class="title-bar">
+                <div class="title-bar-text">Supreme Lord Googerchuck</div>
+
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p>Enter, munchkins</p>
+                <section class="field-row" style="justify-content: flex-end">
+                    <button
+                        onclick="document.getElementById('googerchuck').style.display = 'block'"
+                    >
+                        OK
+                    </button>
+                    <button
+                        onclick="document.getElementById('googerchuck').style.display = 'none'"
+                    >
+                        Cancel
+                    </button>
+                </section>
+            </div>
+        </div>
+        <img
+            id="googerchuck"
+            src="./googerchuck-complete-1.png"
+            style="display: none"
+        />
+        <div class="window" style="margin: 32px; width: 250px">
+            <div class="title-bar">
+                <div class="title-bar-text">Supreme Lord Googerchuck</div>
+
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p>
+                    Meet my messenger, Farmer of humanity, 1st mate of Goog, Mr
+                    Gawang
+                </p>
+                <section class="field-row" style="justify-content: flex-end">
+                    <button
+                        onclick="document.getElementById('gawang').style.display = 'block'"
+                    >
+                        OK
+                    </button>
+                    <button
+                        onclick="document.getElementById('gawang').style.display = 'none'"
+                    >
+                        Cancel
+                    </button>
+                </section>
+            </div>
+        </div>
+
+        <div
+            id="gawang"
+            style="display: flex; justify-content: space-between; display: none"
+        >
+            <img src="./Gawang1.png" />
+            <img src="./Gawang2.png" />
+            <img src="./Gawang3.png" />
+        </div>
+    </body>
+</html>
